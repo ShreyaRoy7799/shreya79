@@ -1,0 +1,33 @@
+.footer-container {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .facebook{
+    width: 2rem;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons i {
+    color: #666666;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icons i:hover {
+    color: #4285f4;
+    cursor: pointer;
+  }

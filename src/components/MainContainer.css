@@ -1,0 +1,140 @@
+.mainmain{
+    margin: 1rem;
+    /* padding: 1rem; */
+}
+.mainmain3{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+.main131{
+    /* display: flex;  */
+width: 100%; 
+height: auto; 
+
+}
+
+.i1{
+    width: 100%;
+    /* padding: 2rem; */
+    /* margin: 2rem; */
+}
+
+.i2{
+    width: 100%;
+    /* padding: 2rem; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   /* margin: 2rem; */
+}
+
+
+
+.i3{
+    font-size: large;
+    position: relative; 
+font-weight: 600; 
+text-transform: capitalize; 
+color: black;
+/* margin: 1rem; */
+}
+
+.i3::before{
+    position: absolute; 
+bottom: 0; 
+left: 0; 
+transition-property: all; 
+transition-duration: 100ms; 
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+width: 5rem; 
+height: 0.25rem; 
+border-radius: 0.5rem; 
+background-color: orange;
+content:'';
+}
+
+.i4{
+    /* display: none;  */
+    align-items: center;
+    gap: 1.5rem;
+    display: flex;
+margin: 2rem;
+}
+
+.i5{
+    width: 2rem;
+    height: 2rem;
+    border-radius: .5rem;
+    background-color: rgb(246, 187, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-property: all; 
+transition-duration: 100ms; 
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+margin-left: 1rem;
+
+}
+
+.i5:hover{
+    background-color: orange;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+
+}
+
+.i6{
+    width: 2rem;
+    height: 2rem;
+    border-radius: .5rem;
+    background-color: rgb(237, 186, 92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: all; 
+transition-duration: 100ms; 
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+margin-right: 1rem;
+
+}
+
+.i6:hover{
+    background-color: orange;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+
+}
+
+.a1{
+    font-size: large;
+    color: white;
+   
+}
+
+.a2{
+    font-size: large;
+    color: white;
+    
+}
+
+.contact{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .i3{
+        font-size: 20px;
+    }
+
+    .i2{
+        display: contents;
+    }
+    .i4{
+       padding-top: 1rem;
+       padding-bottom: 1rem;
+       padding-left: 2rem;
+       padding-right: 2rem;
+    }
+
+
+}

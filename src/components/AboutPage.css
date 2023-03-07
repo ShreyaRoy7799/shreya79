@@ -1,0 +1,51 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .about-banner {
+    width: 100%;
+    height: 400px;
+    background-image: url("https://source.unsplash.com/1600x900/?nature");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-banner h1 {
+    color: white;
+    font-size: 4rem;
+  }
+  
+  .about-content {
+    width: 80%;
+    margin-top: 50px;
+  }
+  
+  .about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about-banner h1 {
+      font-size: 2.5rem;
+    }
+    .about-content {
+      width: 90%;
+    }
+  }
+  
+  
+  
+  
+  

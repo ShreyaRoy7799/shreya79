@@ -1,0 +1,105 @@
+.menuu1{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; 
+    /* width: 100%;  */
+    
+    
+}
+.mainmain{
+    /* overflow: hidden; */
+}
+.menu2{
+    display: flex; 
+flex-direction: column; 
+justify-content: center; 
+align-items: center; 
+/* width: 100%;  */
+}
+
+
+.menu3{
+    position: relative; 
+margin-right: auto; 
+transition-property: all; 
+transition-duration: 100ms; 
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+font-size: 1.5rem;
+line-height: 2rem; 
+font-weight: 600; 
+text-transform: capitalize; 
+color: black;
+}
+
+.menu22{
+    display: flex; 
+overflow-x: scroll; 
+padding-top: 1.5rem;
+padding-bottom: 1.5rem; 
+justify-content: flex-start; 
+align-items: center; 
+/* width: 100%;  */
+gap: 2rem; 
+
+}
+
+.menu4{
+    width: 2rem; 
+height: 2rem; 
+
+background-color: rgb(251, 249, 249);
+border-radius: 9999px; 
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+}
+
+.menu5{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 6.5rem; 
+    height: 6.5rem; 
+    border-radius: 0.5rem; 
+    cursor: pointer; 
+    gap: 0.75rem; 
+    filter:drop-shadow(0 20px 13px rgba(0, 0, 0, 0.03)) drop-shadow(0 8px 5px rgba(0, 0, 0, 0.08)); 
+    box-shadow: .2rem .2rem .2rem;
+    background-color: rgb(239, 121, 10);
+}
+
+.menu5:hover{
+    background-color: red;
+}
+
+.menu6{
+    font-size: 1rem;
+line-height: 1.75rem; 
+color: rgb(6, 5, 5);
+margin-left: .7rem;
+}
+
+.menu7{
+color: rgb(252, 247, 247);
+font-size: 15px;
+}
+
+.menu8{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .menuu1{
+        margin: 0;
+    }
+    .menu2{
+        flex-direction: row;
+        justify-content: baseline;
+        display: none;
+    }
+    .mainmain{
+        overflow: visible;
+    }
+
+    .main131{
+        overflow: visible;
+    }
+}

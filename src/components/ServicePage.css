@@ -1,0 +1,63 @@
+.service-page {
+    
+  }
+  .z1{
+    margin: 1rem;
+
+  }
+
+  .h1_tag{
+   max-width: 800px;
+    margin: 0 auto;
+padding-bottom: 4rem;
+   text-align: center;
+ 
+  }
+
+  .h2_tag1{
+  background-color: black;
+  color: white;
+  text-align: center;
+ border-radius: 1rem;
+ font-size: 20px;
+ padding: .5rem;
+  }
+
+  .p_block1{
+    background-color: rgb(188, 184, 177);
+  }
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    flex-basis: 30%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .service-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .feedback_page{
+    align-items: center;
+    justify-content: center;
+   padding-left: 20rem;
+  }
+  
+@media screen and (max-width: 768px) {
+  .feedback_page{
+    padding-left: 0;
+  }
+  .h1_tag{
+    font-size: 1rem;
+  }
+}
